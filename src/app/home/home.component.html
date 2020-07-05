@@ -1,0 +1,39 @@
+<form [formGroup]="createButtonForm" class="create-button" (submit)="createButton()">
+  <div class="field">
+    <label for="name">Button name</label>
+    <input id="name" type="text" formControlName="name" />
+  </div>
+
+  <div class="field">
+    <label for="hasText">Has text field</label>
+    <input id="hasText" type="checkbox" formControlName="hasText" />
+  </div>
+
+  <button type="submit">
+    Create
+  </button>
+</form>
+
+<section>
+  <div class="buttons" *ngFor="let myButton of myButtons">
+    <input
+      type="text"
+      *ngIf="myButton.hasText"
+      [(ngModel)]="myButton.text"
+      placeholder="Add a message"
+    />
+    <button (click)="saveTimestamp(myButton.name, myButton.text)">
+      {{ myButton.name }}
+    </button>
+  </div>
+</section>
+
+<section class="log">
+  <div class="log-item" *ngFor="let logItem of logs">
+    Name: {{ logItem.id }}<br />
+    Timestamp: {{ logItem.timestamp }}
+    <span *ngIf="logItem.message">
+      {{ logItem.message }}
+    </span>
+  </div>
+</section>
