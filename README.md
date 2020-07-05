@@ -3,6 +3,18 @@
 ## Table of content
 
 - Getting started
+  - Basic learnings
+    - HTML
+    - CSS
+    - Javascript
+    - Advanced javascript
+    - Javascript i didnt told about
+    - Compilers/bundlers
+    - The DOM
+    - Node.js
+  - Resources
+  - Framework & Tooling
+- Sharing is caring
 - Pre requisits
 - Start the project
 
@@ -10,7 +22,7 @@
 
 This project consist of a series of packages & helpers to make all of this happen
 
-#### Before you start
+#### Basic learnings
 
 **HTML**
 
