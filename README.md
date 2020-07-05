@@ -14,6 +14,7 @@
     - Node.js
   - Resources
   - Framework & Tooling
+  - Revision control
 - Sharing is caring
 - Pre requisits
 - Start the project
@@ -89,6 +90,13 @@ Its javascript on the backend, written in the same way as on the frontend but wi
 - Webpack - this handle the reloading of the browser on file changes (this is built into the package that angular-cli comes with)
 - Node.js - Our backend language, its javascript but for the backend
 - NPM - comes out of the box with Node.js and is the package manager
+
+#### Revision control
+
+Git is your friend here, to learn about git you can go here:
+https://guides.github.com/introduction/git-handbook/
+
+Github is a website that make it possible to publicly or private have code in the cloud for revision control, but the underlying logic is git that runs it.
 
 ## Sharing is caring
 
